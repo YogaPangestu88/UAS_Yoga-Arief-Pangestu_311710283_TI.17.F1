@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dokterActivity"
+    android:background="#66CDAA">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageviewfoto"
+            android:layout_width="match_parent"
+            android:layout_height="331dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/dokter1" />
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Dr. Rahmawati Minhajat, PhD., Sp.PD-KHOM
+\n\nSpesialis Penyakit Dalam (Hematologi dan Onkologi Medik)
+\n\nRS Stella Maris Makassar
+273, Jl. Somba OPU, Losari, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan
+  "         android:background="@drawable/container2"
+            android:textStyle="bold" />
+
+         </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageviewfoto1"
+                    android:layout_width="match_parent"
+                    android:layout_height="331dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/dokter1" />
+
+                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Dr. Norman Djamaludin, Sp.PD-KHOM., \n\nFINASIM
+Spesialis Penyakit Dalam (Hematologi dan Onkologi Medik)
+RS dr AK Gani Palembang
+No.1, Jalan Dokter Ak. Gani, 19 Ilir, Kec. Bukit Kecil, Kota Palembang, Sumatera Selatan
+RS Charitas Palembang
+No.1054, Jl. Jend. Sudirman, Sungai Pangeran, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan
+1 tempat praktik lainnya"         android:background="@drawable/container2"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageviewfoto2"
+                    android:layout_width="match_parent"
+                    android:layout_height="331dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/dokter1" />
+
+                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Dr. Agung Firmansyah, Sp.PD-KHOM, MMRS,\n\nFINASIM
+Spesialis Penyakit Dalam (Hematologi dan Onkologi Medik)
+RSUD Al Ihsan Provinsi Jawa Barat
+Jl. Ki Astramanggala, Baleendah, Kec. Baleendah, Bandung, Jawa Barat
+RS Santo Borromeus
+No.100, Jl. Ir. H. Juanda, Lebakgede, Kecamatan Coblong, Kota Bandung, Jawa Barat
+  "         android:background="@drawable/container2"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
