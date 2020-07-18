@@ -1,6 +1,8 @@
 # UAS_Yoga-Arief-Pangestu_311710283_TI.17.F1
 Tugas Mobile Programing
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=xFWoVVlnoMc)
+
 ![Screenshot_2020-07-18-16-29-13-981_com example uas_yoga](https://user-images.githubusercontent.com/64071824/87849637-5a50e000-c914-11ea-895b-01cce71a6f32.png)
 ![Screenshot_2020-07-18-16-29-17-726_com example uas_yoga](https://user-images.githubusercontent.com/64071824/87849640-5c1aa380-c914-11ea-9174-a78c7225e854.png)
 ![Screenshot_2020-07-18-16-29-35-825_com example uas_yoga](https://user-images.githubusercontent.com/64071824/87849641-5cb33a00-c914-11ea-9efc-100eb8984bed.png)
